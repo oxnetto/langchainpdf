@@ -7,7 +7,7 @@ from langchain.globals import set_debug
 from langchain.memory import ConversationSummaryMemory
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
-from langchain.text_splitters import CharacterTextSplitter
+from langchain.text_splitter import CharacterTextSplitter  # Atualize aqui se necessário
 from langchain_core.output_parsers import StrOutputParser
 
 # Carregar variáveis de ambiente
